@@ -4,4 +4,3 @@
 	norminette -R CheckForbiddenSourceHeader ex$1/*.c
 	cc -Wall -Werror -Wextra main/ex$1/main.c ex$1/*.c 42correc/ft_putchar.c -o comp/$1.out
 	./comp/$1.out
-done
