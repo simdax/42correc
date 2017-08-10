@@ -3,12 +3,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+void ft_putnbr(int);
+
 int main()
 {
-	int nb = 0;
-	char str[] = "que tal";
-
-	printf("%s", str);
-	printf("%d", nb);
+	ft_putnbr(42);
+	ft_putnbr(-42);
+	ft_putnbr(INT_MAX);
+	ft_putnbr(INT_MIN);
 	return (0);
 }

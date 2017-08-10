@@ -1,5 +1,4 @@
 void ft_print_comb();
-#include "ft_print_comb.c"
 
 int main ()
 {

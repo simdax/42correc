@@ -3,12 +3,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+void 	ft_print_comb2();
+
 int main()
 {
-	int nb = 0;
-	char str[] = "que tal";
-
-	printf("%s", str);
-	printf("%d", nb);
-	return (0);
+	ft_print_comb2();
 }
