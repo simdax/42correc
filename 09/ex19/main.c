@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+int ft_unmatch(int *tab, int length);
+
 int main()
 {
-	int nb = 0;
-	char str[] = "que tal";
+  int tab[9] = {10, 1, 1, 9, 9, 5, 5, 7, 7};
 
-	printf("%s", str);
-	printf("%d", nb);
+	printf("%d", ft_unmatch(tab, 9));
 	return (0);
 }

@@ -7,8 +7,8 @@ int ft_compact(char **tab, int length);
 
 int main()
 {
-	char *str[9] = { "fdsf", NULL, "muchahco","","muchahco","muchahco","muchahco","ok dak" };
-	printf("%d", ft_compact(str, 8));
+  char *str[9] = { "fdsf", "coucou" };
+	printf("%d", ft_compact(str, 2));
 	int i = 0;
 	while (str[i])
 	{

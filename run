@@ -3,4 +3,4 @@
 	mkdir -p comp
 	norminette -R CheckForbiddenSourceHeader ../ex$2/*.c
 	cc -Wall -Werror -Wextra $1/ex$2/main.c ../ex$2/*.c ft_putchar.c -o comp/$2.out
-	./comp/$2.out
+	./comp/$2.out $2 $3 $4 $5 $6
