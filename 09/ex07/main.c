@@ -7,7 +7,7 @@ unsigned int ft_collatz_conjecture(unsigned int base);
 
 int main()
 {
-	unsigned int	base = 0;
+	unsigned int	base = 1;
 	
 	while (base < 15)
 		printf("%d\n", ft_collatz_conjecture(base++));

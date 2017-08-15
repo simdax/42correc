@@ -1,14 +1,15 @@
-#include <limits.h>
-#include <stdio.h>
+
 #include <stdlib.h>
-#include <string.h>
-
-int main()
-{
-	int nb = 0;
-	char str[] = "que tal";
-
-	printf("%s", str);
-	printf("%d", nb);
-	return (0);
+#include "../../../ex12/ft_door.h"
+int main() {
+  t_door door;
+  open_door(&door);
+  if (is_door_close(&door))
+    open_door(&door);
+  if (is_door_open(&door))
+    close_door(&door);
+  if (door.state == OPEN)
+    close_door(&door);
+  return (EXIT_SUCCESS);
 }
+
