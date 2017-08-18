@@ -4,9 +4,9 @@ int ft_str_is_numeric(char *str);
 
 int main()
 {
-	printf("%d\n", ft_str_is_numeric("chhhkfJKHaf"));
-	printf("%d\n", ft_str_is_numeric("456"));
-	printf("%d\n", ft_str_is_numeric(""));
-	return (0);
+  char str[] = "FdSafDsafsdFdfDS45fds";
+  char str2[] = "4567";
+  printf("%d", ft_str_is_numeric(str));
+  printf("%d", ft_str_is_numeric(str2));
+  return (0);
 }
-

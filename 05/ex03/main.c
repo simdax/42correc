@@ -10,7 +10,7 @@ int main()
 	ft_strcpy(dest, src);
 	printf("%s\n", dest);
 	char dest1[20] = "coucou les  ";
-	char src1[] = "loulfasdfous";
+	char src1[] = "loulfasdsfous";
 	strcpy(dest1, src1);
 	printf("%s\n", dest1);
 
