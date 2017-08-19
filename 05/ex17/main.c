@@ -7,19 +7,16 @@ int main()
 {
 	char dest[20]= "coucou";
 	char src[50]= "les loulous";	
-	printf("%s", ft_strncat(dest, src, 1));
-	printf("%s", ft_strncat(dest, src, 10));
-	printf("%s", ft_strncat(dest, src, 20));
-	printf("%s", ft_strncat(dest, src, 30));
+	printf("%s\n", ft_strncat(dest, src, 1));
+	printf("%s\n", ft_strncat(dest, src, 10));
 
-	printf("\n");
+	printf("\n-----------------------\n");
 
 	char dest1[20]= "coucou";
 	char src1[50]= "les loulous";
-	printf("%s", strncat(dest1, src1, 1));
-	printf("%s", strncat(dest1, src1, 10));
-	printf("%s", strncat(dest1, src1, 20));
-	printf("%s", strncat(dest1, src1, 30));
+	printf("%s\n", strncat(dest1, src1, 1));
+	printf("%s\n", strncat(dest1, src1, 10));
+
 
 	return (0);
 }
