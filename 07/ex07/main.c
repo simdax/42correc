@@ -3,13 +3,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+char *ft_split(char *str, char *seps);
+
 int main()
 {
-	int nb;
-	char str[];
+	char str[] = "j aime, k le mhaudit";
+	char seps[] = ",kh";
 
-	ft_split()
-	printf("%s", str);
-	printf("%d", nb);
+	printf("%s", ft_split(str, seps));
 	return (0);
 }
