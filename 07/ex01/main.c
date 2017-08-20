@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "../ansi_colors.h"
 
 int *ft_range(int min, int max);
 
