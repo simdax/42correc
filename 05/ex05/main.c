@@ -8,6 +8,7 @@ int main()
 {
 	printf("\nLA TIENNE\n\n");
 
+	printf("%s\n", ft_strstr("salut mec", "mec"));
 	printf("%s\n", ft_strstr("coucou les loulous", "loulous"));
 	printf("%s\n", ft_strstr("coucou les loulous", "coucou"));
 	printf("%s\n", ft_strstr("coucou les loulous", "rien"));
@@ -20,6 +21,7 @@ int main()
 
 	printf("\nLA VRAIE\n\n");
 
+	printf("%s\n", strstr("salut mec", "mec"));
 	printf("%s\n", strstr("coucou les loulous", "loulous"));
 	printf("%s\n", strstr("coucou les loulous", "coucou"));
 	printf("%s\n", strstr("coucou les loulous", "rien"));

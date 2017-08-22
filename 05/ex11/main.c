@@ -4,7 +4,9 @@ int ft_str_is_alpha(char *str);
 
 int main()
 {
-	printf("%d\n", ft_str_is_alpha("chhhkfJKHaf"));
-	printf("%d\n", ft_str_is_alpha(""));
-	return (0);
+  char str[] = "FdSafDsafsdFdfDS45fds";
+  char str2[] = "FdSafDsafsdFdfDSfds";
+  printf("%d", ft_str_is_alpha(str));
+  printf("%d", ft_str_is_alpha(str2));
+  return (0);
 }
