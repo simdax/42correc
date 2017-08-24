@@ -20,12 +20,12 @@ void	test(char *str)
 
 int main()
 {
-	char *str = "rien     du tout les loulous";
+	char *str = "nb pair d argument";
 	char *str1 = "";
-	char *str2 = "	fdsjkflsadf	 fdsjk fsajfkl";
+	char *str2 = "nb impair args";
 
 	test(str);
-	test(str1);
 	test(str2);
+	test(str1);
 	return (0);
 }
