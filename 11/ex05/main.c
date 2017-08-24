@@ -1,5 +1,5 @@
-#include "../../ft_list.h"
-#include "../../ex00/ft_create_elem.c"
+#include "../../../ex00/ft_list.h"
+#include "../../../ex00/ft_create_elem.c"
 #include <unistd.h>
 #include <stdio.h>
 
@@ -13,8 +13,7 @@ int main(int argc, char **argv)
 	list = ft_list_push_params(argc, argv);
 	while (list)
 	{
-		write(1, list->data, 1);
-		write(1, "\n", 1);
-		list = list->next;
+	  printf("%s\n", (char*)list->data);
+	  list = list->next;
 	}
 }
